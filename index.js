@@ -1,6 +1,6 @@
-const secretWord = 'namoro';
+const secretWord = 'namorada';
 let guessedWord = Array(secretWord.length).fill('_');
-let attempts = 6;
+let attempts = 8;
 
 document.getElementById('guess-button').addEventListener('click', () => {
     const guessInput = document.getElementById('guess-input');
